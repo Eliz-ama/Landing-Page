@@ -47,15 +47,20 @@
     color: #525252;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1200px) {
     .inicio h1{
         font-size: 3rem;
     }
 }
 
-@media (max-width: 800px){
+
+@media (max-width: 1000px){
     .inicio {
         grid-template-columns: 1fr 1fr;
         gap: 40px;
+    }
+
+    .inicio h1{
+        font-size
     }
 }
