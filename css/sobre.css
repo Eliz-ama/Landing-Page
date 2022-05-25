@@ -1,0 +1,41 @@
+.sobre{
+    max-width: 1200px;
+    padding: 100px 20px;
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.subtitulo{
+    padding: 10px;;
+}
+
+
+.texto1{
+    font-size: 1rem;
+    line-height: 1.33;
+    max-width: 40ch;
+    margin-bottom: 60px;
+    line-height: 1.4;
+    color: #525252;
+   
+
+}
+
+.maissobre{
+    font-size: 1rem;
+    line-height: 1.33;
+    max-width: 40ch;
+    margin-bottom: 60px;
+    line-height: 1.4;
+    color: #525252; 
+}
+
+@media (max-width: 800px) {
+    .experiencia {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+}
+

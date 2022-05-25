@@ -1,0 +1,18 @@
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px 10px;
+    justify-content: center;
+}
+
+.texto{
+    font-size: 1rem;
+    line-height: 1.33;
+    max-width: 500ch;
+    margin-bottom: 60px;
+    line-height: 1.4;
+    color: #525252;
+    padding: 10px;
+}
+

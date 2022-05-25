@@ -1,0 +1,19 @@
+.rodape{
+    background-image:linear-gradient(rgb(189, 49, 177), rgb(30, 30, 143));
+    background-repeat:repeat;
+}
+
+.info{
+    max-width: 100px;
+    margin: 0 auto;
+    gap: 100px;
+    justify-content:right;
+}
+
+.texto-info{
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1 rem;
+    color: bisque;
+}
+
